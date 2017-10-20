@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "743979883244",
+    "firebase_url": "https://usc-discover.firebaseio.com",
+    "project_id": "usc-discover",
+    "storage_bucket": "usc-discover.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743979883244:android:a6e2f19afb330be9",
+        "android_client_info": {
+          "package_name": "com.inf551.discoverusc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743979883244-dngp13lhebhrekf35r8duegpafpo08vp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inf551.discoverusc",
+            "certificate_hash": "ad8d5be6a953249da7736e3f9dc69d4db5e78a90"
+          }
+        },
+        {
+          "client_id": "743979883244-v5epfggk09eltj0lip9itnhcq0qs4bv7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcskHGyLcv5bbx-3GYaiLMhjmieDFuah0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743979883244-v5epfggk09eltj0lip9itnhcq0qs4bv7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
