@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
@@ -42,6 +43,7 @@ public class LoginActivity extends AppCompatActivity implements ILoginView, Goog
     private FirebaseAuth.AuthStateListener mAuthListener;
     private int SIGN_IN_REQUEST_CODE = 888;
 
+
     private GoogleApiClient mGoogleApiClient;
     private static final String TAG = LoginActivity.class.getSimpleName();
     @Override
@@ -54,7 +56,6 @@ public class LoginActivity extends AppCompatActivity implements ILoginView, Goog
         ButterKnife.bind(this);
 
         loginPresenter = new LoginPresenter(this);
-
 
         sign_in_button = (SignInButton) findViewById(R.id.sign_in_button);
         sign_in_button.setOnClickListener(new View.OnClickListener() {

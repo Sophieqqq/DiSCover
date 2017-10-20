@@ -147,6 +147,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/liwanjin/.android/build-cache/20ef6913a56bac1e2b6e12e239b4dc2be1bb6e00/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b0b0f4f99cf68e748dd123ad553738e4284d4749">
+        <dex dex="/Users/liwanjin/AndroidStudioProjects/DiscoverUSC/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2eac96324325501bbd3e51ef80f9104c2d3bae92/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/liwanjin/.android/build-cache/1d46324bf12891b59b9877520139e0501cb10329/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -178,7 +187,7 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.2"
-        sha1="941f2956ea5080cad3a816e8d02124759538f342">
+        sha1="de1c062e5d1c77d9206e593be37fe587725908ac">
         <dex dex="/Users/liwanjin/AndroidStudioProjects/DiscoverUSC/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c0035e5721c2e9c2044283e73ad495a4c8e556d0/classes.dex" />
     </item>
     <item
@@ -252,6 +261,15 @@
         revision="26.0.2"
         sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
         <dex dex="/Users/liwanjin/AndroidStudioProjects/DiscoverUSC/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c08e24c88b550d49b6291e9e53c6e80d92473d2a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liwanjin/.android/build-cache/fce7bd1fa9fac5e4a18c8f50a0d15b9a2b98facf/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
+        <dex dex="/Users/liwanjin/AndroidStudioProjects/DiscoverUSC/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_242f3dbca7e591d85d54f2e82f461bddebbf3639/classes.dex" />
     </item>
     <item
         is-multidex="true"
