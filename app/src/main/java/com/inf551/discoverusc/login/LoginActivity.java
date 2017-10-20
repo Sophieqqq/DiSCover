@@ -71,10 +71,20 @@ public class LoginActivity extends AppCompatActivity implements ILoginView, Goog
                         .requestEmail()
                         .build();//
 
-        mGoogleApiClient = new GoogleApiClient.Builder(this)
-                .enableAutoManage(this, this)
-                .addApi(Auth.GOOGLE_SIGN_IN_API, gso)
-                .build();
+//        mGoogleApiClient = new GoogleApiClient.Builder(this)
+//                .enableAutoManage(this, this)
+//                .addApi(Auth.GOOGLE_SIGN_IN_API, gso)
+//                .build();
+
+        mGoogleApiClient = new GoogleApiClient.Builder(this).enableAutoManage(this, new GoogleApiClient.OnConnectionFailedListener() {
+                    @Override
+                    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
+
+                        Toast.makeText(LoginActivity.this, "Google Login Error...", Toast.LENGTH_LONG).show();
+
+                    }
+                }
+        ).addApi(Auth.GOOGLE_SIGN_IN_API, gso).build();
 
     }
 

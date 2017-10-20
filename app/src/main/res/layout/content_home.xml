@@ -9,10 +9,16 @@
     tools:showIn="@layout/activity_home">
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/signoutBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign Out"
         tools:layout_editor_absoluteX="147dp"
         tools:layout_editor_absoluteY="299dp" />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/post_list">
+
+    </android.support.v7.widget.RecyclerView>
 </android.support.constraint.ConstraintLayout>

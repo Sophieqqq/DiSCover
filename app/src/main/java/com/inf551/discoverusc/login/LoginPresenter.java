@@ -50,15 +50,7 @@ public class LoginPresenter implements ILoginPresenter{
 
     }
 
-//    public logOutWithFirebase(){
-//
-//        mFirebaseAuth.GoogleSignInApi.signOut(loginView.mGoogleApiClient).setResultCallback(
-//                new ResultCallback<Status>() {
-//                    @Override
-//                    public void onResult(Status status) {
-//                    }
-//                });
-//    }
+
     @Override
     public void loginSucceed() {
         loginView.showProgress(false);//Hide animation
